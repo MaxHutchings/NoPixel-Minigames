@@ -1,0 +1,32 @@
+.div_grid {
+    align-items: center;
+    background: #2D3139;
+    color: #ededed;
+    display: grid;
+    height: 700px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    width: 700px;
+}
+
+img {
+    padding-top: 280px;
+}
+
+p {
+    text-decoration: solid;
+}
+
+.block {
+    background: #394D61;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+html, button {
+    color: #ededed;
+    background: #14161a;
+}

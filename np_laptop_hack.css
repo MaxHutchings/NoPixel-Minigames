@@ -1,0 +1,153 @@
+html, select {
+    color: #ededed;
+    background: #14161a;
+}
+
+.div_container {
+    background: #2D3139;
+    color: #ededed;
+    display: grid;
+    height: 700px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    width: 1500px;
+}
+
+.block_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 300px;
+    margin: 100px 10px 10px 10px;
+    width: calc(100% - 20px);
+}
+
+.block_background {
+    display: grid;
+    height: 300px;
+    position: relative;
+    left: 10%;
+    width: 300px;
+}
+
+p, h1, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+
+p {
+    font-size: 200%;
+}
+
+h1 {
+    font-size: 600%;
+    padding-top: 25px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.top-text {
+    padding-top: 48px;
+    position: relative;
+}
+
+.bottom-text {
+    margin-top: -40px;
+    position: relative;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+}
+
+h3 {
+    height: 300px;
+    line-height: 300px;
+    margin: 0;
+    width: 300px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: bold;
+}
+
+.number_show {
+    height: 300px;
+    position: relative;
+    left: 10%;
+    width: 300px;
+}
+
+.input_container {
+    display: grid;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 2fr, 1fr;
+}
+
+#timer {
+    padding-top: 100px;
+}
+
+input[type='range'] {
+    display: inline-block;
+    overflow: hidden;
+    width: 50%;
+    -webkit-appearance: none;
+    background-color: #80552b;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+  
+input[type='range']::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    height: 5px;
+}
+  
+input[type='range']::-webkit-slider-thumb {
+    width: var(--width);
+    -webkit-appearance: none;
+    background: #434343;
+    box-shadow: var(--shadow);
+}
+
+#time_slider2 {
+    direction: rtl;
+}
+
+:root {
+    --width: 100%;
+    --shadow: 0 0 0 10px #e69b50;
+}
+
+#input {
+    padding-top: 50px;
+    height: 150px;
+}
+
+input[type="text"] {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #9c9c9c;
+    color: #ededed;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 50px;
+    outline: none;
+    padding-bottom: 5px;
+    width: 200px;
+}
+
+.end_screen {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 350px;
+}
